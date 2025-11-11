@@ -19,3 +19,5 @@ cd Git_InterAvan/
  git switch master
 
  notepad README.txt
+
+Se ha podido actualizar el repositorio remoto sin problemas ninguno añadiendo este README desde mi repositorio local.
