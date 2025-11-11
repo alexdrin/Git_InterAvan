@@ -7,3 +7,9 @@ Alex -> alexdrin será el alumno 1
 
 
 Alex2 -> alexdrin773 será el alumno 2
+
+
+3 
+git init 
+git st
+git commit -m 
