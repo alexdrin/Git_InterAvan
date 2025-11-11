@@ -68,4 +68,60 @@ Para renombrar la rama anterior utilizamos la opción -m de rename/move dentro d
 
 git branch -m ramaAlumno2
 
+8.
+El asterisco encima de la rama muestra la rama en la que te encuentras actualmente trabajando.
+
+9.
+
+Alumno1:
+
+nano almacen_cli.java
+
+git add almacen_cli.java
+
+git commit -m "Añadiendo fichero almacen_cli.java"
+
+Alumno2:
+
+git checkout ramaAlumno2
+
+nano cliente.java
+
+git add cliente.java
+
+git commit -m "Añadiendo fichero cliente.java"
+
+10.
+Como no tengo tkdiff instalado al esta en windows, he usado Visual Studio Code para ver las diferencias, estableciendolo como herramienta de diferencias a través del siguiente comando:
+
+git config --global diff.tool "code --diff"
+
+Y para ver las diferencias he usado:
+
+code --diff almacen_cli.java cliente.java
+
+El jefe me ha echado igualmente :(
+
+11.
+Comandos usados 
+Alumno1:
+
+git checkout master
+
+git pull origin master
+
+git merge ramaAlumno1
+
+git push origin master
+
+Alumno2:
+
+git checkout master
+
+git pull origin master
+
+git merge ramaAlumno2
+
+git push origin master
+
 
