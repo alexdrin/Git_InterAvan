@@ -10,6 +10,11 @@ Alex2 -> alexdrin773 será el alumno 2
 
 
 3 
+
 git init 
+
 git st
+
+git add .
+
 git commit -m 
