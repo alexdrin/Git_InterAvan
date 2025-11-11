@@ -55,3 +55,17 @@ git push origin master
 6.
 
 7.
+
+Alumno1:
+
+git checkout -b ramaAlumno1
+
+Alumno2:
+
+git checkout -b ramaAlno2
+
+Para renombrar la rama anterior utilizamos la opción -m de rename/move dentro de la rama que queremos renombrar
+
+git branch -m ramaAlumno2
+
+
