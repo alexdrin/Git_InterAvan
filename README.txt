@@ -51,3 +51,7 @@ git add README.txt
 git commit -m "Actualización de README por el alumno1"
 
 git push origin master
+
+6.
+
+7.
